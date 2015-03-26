@@ -1,0 +1,5 @@
+libraries:
+- name: "django"
+  version: "1.4"
+- name: "south"
+  version: "1.0.3"
