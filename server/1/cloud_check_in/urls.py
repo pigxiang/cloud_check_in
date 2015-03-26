@@ -7,8 +7,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
                        # Examples:
-                       # url(r'^$', 'cloudreg.views.home', name='home'),
-                       # url(r'^cloudreg/', include('cloudreg.foo.urls')),
+                       # url(r'^$', 'cloud_check_in.views.home', name='home'),
+                       # url(r'^cloud_check_in/', include('cloud_check_in.foo.urls')),
 
                        # Uncomment the admin/doc line below to enable admin documentation:
                        url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
